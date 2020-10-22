@@ -1,9 +1,41 @@
-var express = require('express');
-var router = express.Router();
+const express = require("express");
+const router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get("/", function (req, res, next) {
+  res.sendFile("public/index.html", {
+    root: "./",
+  });
+});
+
+router.get("/index.html", function (req, res, next) {
+  res.sendFile("public/index.html", {
+    root: "./",
+  });
+});
+
+router.get("/about.html", function (req, res, next) {
+  res.sendFile("public/about.html", {
+    root: "./",
+  });
+});
+
+router.get("/projects.html", function (req, res, next) {
+  res.sendFile("public/projects.html", {
+    root: "./",
+  });
+});
+
+router.get("/services.html", function (req, res, next) {
+  res.sendFile("public/services.html", {
+    root: "./",
+  });
+});
+
+router.get("/contact-us.html", function (req, res, next) {
+  res.sendFile("public/contact-us.hmtl", {
+    root: "./",
+  });
 });
 
 module.exports = router;
