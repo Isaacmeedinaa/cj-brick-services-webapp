@@ -14804,6 +14804,10 @@ Image Effect Two
   color: #fff !important;
 }
 
+.cssload-loader {
+  color: #69271a !important;
+}
+
 @media only screen and (max-width: 590px) {
   .form-container {
     width: 380px;
