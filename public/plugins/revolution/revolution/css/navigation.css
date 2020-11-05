@@ -17,6 +17,7 @@ website:    http://www.themepunch.com
   display:block;
   z-index:100;
     border-radius:50%;
+    display: none;
 }
 .ares.tparrows:hover {
 }
@@ -32,6 +33,8 @@ website:    http://www.themepunch.com
     transition: color 0.3s;
     z-index:2;
     position:relative;
+    display: none;
+
 }
 .ares.tparrows.tp-leftarrow:before {
   content: "\e81f";
