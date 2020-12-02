@@ -14808,6 +14808,10 @@ Image Effect Two
   color: #69271a !important;
 }
 
+.font-weight-600 {
+  font-weight: 500 !important;
+}
+
 @media only screen and (max-width: 590px) {
   .form-container {
     width: 380px;
